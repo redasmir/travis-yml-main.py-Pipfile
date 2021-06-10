@@ -8,4 +8,4 @@ install:
   - pip install pylint
 # command to run tests
 script:
-  - pyhton main.py test
+  - pylint main.py 
